@@ -6,4 +6,10 @@ class Program
     {
         Console.WriteLine("Hello, World!");
     }
+
+    public sring GetSecret()
+    {
+        var secret = "12345678qwertyuiop";
+        return secret;
+    }
 }
